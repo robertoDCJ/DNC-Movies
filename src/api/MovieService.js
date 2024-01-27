@@ -1,9 +1,9 @@
 import axios from "axios";
 
 const BASE_URL = "https://api.themoviedb.org/3/";
-const API_KEY = "3e074b6d14a7158d77bae02b97da066e";
+const API_KEY = "f553bbd0381a5c94633169103fff1cb6";
 
-const withBaseUrl = (path) => `${BASE_URL}${path}?api_key${API_KEY}`; 
+const withBaseUrl = (path) => `${BASE_URL}${path}?api_key=${API_KEY}`; 
 
 export class MovieService {
     static getMovies() {
